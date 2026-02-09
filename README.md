@@ -1,16 +1,99 @@
-# React + Vite
+# React Form Validation 🧾
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly **React Form Validation** project built to understand how forms work in real-world React applications.
 
-Currently, two official plugins are available:
+This project focuses on handling controlled inputs, managing form state using `useState`, performing real-time validation, and displaying user-friendly error messages — without using any external libraries.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🔗 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Live Project: https://react-form-iota-lime.vercel.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- Controlled form inputs
+- Real-time form validation
+- Field-level error handling
+- Dynamic error messages
+- Password & confirm password matching
+- Clean and beginner-friendly UI
+
+---
+
+## 🧠 Concepts Covered
+
+- Controlled components in React
+- `useState` hook for form data
+- Handling multiple inputs with a single handler
+- Conditional rendering for errors
+- Dynamic inline styling based on validation state
+- Basic form validation logic
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- JavaScript (ES6+)
+- CSS
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+│── App.jsx
+│── App.css
+│── main.jsx
+```
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/jdcodebase/react-form
+   ```
+
+2. Install dependencies
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server
+
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 📚 Part of Web Development Series
+
+This project is part of the **Web Development Series by JDCodebase**, where we cover:
+
+- HTML
+- CSS
+- JavaScript
+- React
+- MERN Stack
+
+---
+
+## 🙌 Support
+
+If you found this project helpful:
+
+- ⭐ Star the repository
+- 📺 Subscribe on YouTube
+- 🔁 Share with others
+
+Happy Coding 🚀
+**JDCodebase**
