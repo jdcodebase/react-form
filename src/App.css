@@ -1,0 +1,85 @@
+/* Root container
+   Used to center the form vertically and horizontally on the screen */
+.app {
+  display: flex; /* Enables flexbox */
+  flex-direction: column; /* Stack items vertically */
+  min-height: 100vh; /* Full viewport height */
+  align-items: center; /* Horizontal centering */
+  justify-content: center; /* Vertical centering */
+  background-color: #e4b093;
+}
+
+/* Main card/container for the form */
+.main {
+  border: 1px solid #000; /* Simple black border */
+  padding: 10px; /* Space inside the box */
+  border-radius: 5px; /* Rounded corners */
+  width: 60%; /* Responsive width */
+  background-color: #fff;
+}
+
+/* Form title styling */
+.title {
+  text-align: center; /* Center the heading text */
+  padding: 20px; /* Space around the title */
+}
+
+/* Form layout */
+form {
+  display: flex; /* Flexbox for layout */
+  flex-direction: column; /* Stack inputs vertically */
+  margin: 0 auto; /* Center form inside container */
+  width: 70%; /* Reduce width for better spacing */
+}
+
+/* Label styling */
+label {
+  display: block; /* Each label on its own line */
+  width: 60%; /* Align with inputs */
+  font-size: 18px; /* Readable text size */
+  margin-bottom: 3px; /* Small gap below label */
+}
+
+/* Wrapper for input and its error message */
+.inp-error {
+  display: flex; /* Flex container */
+  flex-direction: column; /* Stack input and error vertically */
+  margin-bottom: 20px; /* Space between form fields */
+}
+
+/* Input field styling */
+input {
+  border: 1px solid #000; /* Default border */
+  border-radius: 3px; /* Slight rounding */
+  padding: 8px; /* Inner spacing */
+  outline: none; /* Remove browser default outline */
+  font-size: 16px; /* Comfortable text size */
+}
+
+/* Input focus state */
+input:focus {
+  border-color: blue; /* Highlight input on focus */
+}
+
+/* Submit button styling */
+.btn {
+  width: 60%; /* Button width */
+  border: none; /* Remove default border */
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 10px; /* Button height */
+  font-size: 18px; /* Bigger text */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  display: block; /* Block element */
+  margin: 0 auto; /* Center the button */
+}
+
+/* Error message styling */
+.error {
+  text-align: left; /* Align error text to left */
+  color: red; /* Red color for errors */
+  font-size: 16px; /* Readable size */
+  margin: 4px 0; /* Small spacing */
+  padding: 0 5px; /* Slight left/right padding */
+}
